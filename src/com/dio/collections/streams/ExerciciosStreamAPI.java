@@ -52,5 +52,34 @@ public class ExerciciosStreamAPI {
                 .distinct()
                 .count());
 
+        System.out.print("Mostre o menor valor da lista: ");
+        numerosAleatoriosInteger.stream()
+                .mapToInt(Integer::intValue)
+                .min()
+                .ifPresent(System.out::println);
+
+        System.out.print("Mostre o maior valor da lista: ");
+        numerosAleatoriosInteger.stream()
+                .mapToInt(Integer::intValue)
+                .max()
+                .ifPresent(System.out::println);;
+
+        int somaDosNumerosPares = numerosAleatoriosInteger.stream()
+                .filter(i -> (i % 2 == 0))
+                .mapToInt(Integer::intValue)
+                .sum();
+        System.out.println("Pegue apenas os números ímpares e some: " + somaDosNumerosPares);
+
+        System.out.println("Mostre a lista na ordem númerica: ");
+        List<Integer> numerosOrdemNatural = numerosAleatoriosInteger.stream()
+                .sorted(Comparator.naturalOrder())
+                .collect(Collectors.toList());
+        System.out.println(numerosOrdemNatural);
+
+        System.out.println("Agrupe os valores ímpares múltiplos de 3 ou de 5:");
+        // dica: collect(Collectors.groupingBy(new Function())
+        Map<Boolean, List<Integer>> collectNumerosMultiplosDe3E5 = numerosAleatoriosInteger.stream()
+                .collect(Collectors.groupingBy(i -> (i % 3 == 0 || i % 5 == 0)));
+        System.out.println(collectNumerosMultiplosDe3E5);
     }
 }
