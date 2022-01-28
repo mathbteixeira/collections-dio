@@ -1,4 +1,4 @@
-package src.com.dio.collections.sets;
+package br.com.dio.collections.sets;
 
 /*
 Crie uma conjunto contendo as cores do arco-íris e:

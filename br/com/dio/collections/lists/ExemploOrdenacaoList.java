@@ -1,4 +1,4 @@
-package src.com.dio.collections.lists;
+package br.com.dio.collections.lists;
 
 /*Dadas as seguintes informações sobre meus gatos, crie uma lista
 e ordene esta lista exibindo:

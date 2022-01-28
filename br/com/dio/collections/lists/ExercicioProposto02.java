@@ -1,4 +1,4 @@
-package src.com.dio.collections.lists;
+package br.com.dio.collections.lists;
 
 /*
 Utilizando listas, faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:

@@ -1,4 +1,4 @@
-package src.com.dio.collections.maps;
+package br.com.dio.collections.maps;
 
 /*
     Dada a população estimada de alguns estados do nordeste brasileiro, faça:

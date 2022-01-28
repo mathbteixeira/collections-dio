@@ -1,4 +1,4 @@
-package src.com.dio.collections.maps;
+package br.com.dio.collections.maps;
 
 /*
     Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene.

@@ -1,4 +1,4 @@
-package src.com.dio.collections.streams;
+package br.com.dio.collections.streams;
 
 import java.util.*;
 import java.util.stream.Collectors;

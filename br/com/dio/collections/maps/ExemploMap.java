@@ -1,4 +1,4 @@
-package src.com.dio.collections.maps;
+package br.com.dio.collections.maps;
 
 import java.util.*;
 import java.util.stream.Collectors;

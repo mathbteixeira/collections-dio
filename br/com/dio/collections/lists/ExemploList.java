@@ -1,4 +1,4 @@
-package src.com.dio.collections.lists;
+package br.com.dio.collections.lists;
 
 import java.util.*;
 
