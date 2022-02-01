@@ -71,11 +71,11 @@ public class RefatoracaoOrdenacaoMap {
 
         System.out.println("--\tOrdem nome contato\t--");
         //precisamos organizar os valores. Logo:
-        Set<Map.Entry<Integer, Contato>> set1 = new TreeSet<>(new ComparatorOrdemNomeContato());
-        set1.addAll(agenda.entrySet());
-        for (Map.Entry<Integer, Contato> entry: set1) {
-            System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
-        }
+        //Set<Map.Entry<Integer, Contato>> set1 = new TreeSet<>(new ComparatorOrdemNomeContato());
+        //set1.addAll(agenda.entrySet());
+        //for (Map.Entry<Integer, Contato> entry: set1) {
+        //    System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
+        //}
     }
 }
 /*
